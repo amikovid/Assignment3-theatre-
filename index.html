@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-cYENXDsW6sHVbXbFClUW/OV+cPDEmqDn0dtrhW31vrM7v5nVM+7jSOvdvvOjNp7KKDmyTJh6jVlkPf4uOl56PQQ==" crossorigin="anonymous" />
+<title>Title</title>
+</head>
+
+<style>
+    *{
+        /* border: 1px red solid; */
+    }
+</style>
+
+<style>
+    header{
+        align-items: right;
+        background-color:black ;
+    }
+</style>
+
+
+<body>
+    <!-- Header and Navigation Menu -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark background-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Griot Theater</a>
+                <div class="collapse navbar-collapse">
+                    <!-- I don't know why my items are not aligning to the right, I thought ml-auto was supposed to the trick -->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shows</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Tickets</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <style> .hero-section{
+                background-image: url(images/theater-image-background.png);
+                background-size:cover;
+                color: white;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            </style>
+            <style>
+                .hero-heading{
+                    font-size: 60px;
+                }
+
+            </style>
+            <div class="text-center" > 
+                <h1 class="hero-heading">Featured Shows</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendar Section -->
+    <style>
+        #month{
+            display: flex;
+            align-items: center;
+            background-color: darkgray;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            padding: 5px;
+        }
+    </style>
+    
+    <section class="calendar-section">
+        <div class="container" id="month">
+            <div class="row" style="padding: 15px;">
+            </div><div>
+                <h2>April 2020</h2>
+            </div>
+            </div>        
+        <div class="container">
+            <!-- Upcoming Events -->
+            <!-- 1st event -->
+            <div class="row" style="border-bottom: black 1px solid;">
+                <div class="col-md-4">
+                    <img src="images/a-raisin-in-the-sun-theater-1.png" alt="Featured show background">
+                </div>
+                <div class="col-md-4">
+                    <h2>A Raisin in the sun</h2>
+                    <p>March 13,2020- April 6,2020</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>lorem</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="btn" style="background-color: #998704; color: white;">Read More</a>
+                </div>
+            </div>
+            <!-- 2nd event -->
+            <div class="row" style="border-bottom: black 1px solid;">
+                <div class="col-md-4">
+                    <img src="images/a-raisin-in-the-sun-theater-1.png" alt="Featured show background">
+                </div>
+                <div class="col-md-4">
+                    <h2>A Raisin in the sun</h2>
+                    <p>March 13,2020- April 6,2020</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>lorem</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="btn" style="background-color: #998704; color: white;">Read More</a>
+                </div>
+            </div>
+            <!-- 3rd event -->
+            <div class="row" style="border-bottom: black 1px solid;">
+                <div class="col-md-4">
+                    <img src="images/a-raisin-in-the-sun-theater-1.png" alt="Featured show background">
+                </div>
+                <div class="col-md-4">
+                    <h2>A Raisin in the sun</h2>
+                    <p>March 13,2020- April 6,2020</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>lorem</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="btn" style="background-color: #998704; color: white;">Read More</a>
+                </div>
+            </div>
+            <!-- 4th event -->
+            <div class="row" style="border-bottom: black 1px solid;">
+                <div class="col-md-4">
+                    <img src="images/a-raisin-in-the-sun-theater-1.png" alt="Featured show background">
+                </div>
+                <div class="col-md-4">
+                    <h2>A Raisin in the sun</h2>
+                    <p>March 13,2020- April 6,2020</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>lorem</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="btn" style="background-color: #998704; color: white;">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/thumbnail.jpg" style="height: 50%;" alt="Map Image">
+                </div>
+                <!-- Info Column -->
+                <div class="col-md-3">
+                    <h3>Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i>Address address.</li>
+                        <li><i class="far fa-envelope"></i>email@email.com</li>
+                        <li><i class="fas fa-phone"></i>(000)000-000</li>
+                    </ul>
+                </div>
+                <!-- Shows Column -->
+                <div class="col-md-3">
+                    <h3>Shows</h3>
+                    <ul>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>lorem</li>
+                        <li>lorem</li>
+                    </ul>
+                </div>
+                <!-- Social Column -->
+                <div class="col-md-3">
+                    <h3>Social</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
